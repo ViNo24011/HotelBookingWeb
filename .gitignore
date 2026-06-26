@@ -1,0 +1,62 @@
+# ==========================================
+# Root .gitignore for HotelBookingWeb
+# Combined Frontend (React/Vite) & Backend (Spring Boot)
+# ==========================================
+
+# --- Front-end Ignores (React/Vite) ---
+node_modules/
+dist/
+dist-ssr/
+*.local
+.eslintcache
+
+# --- Back-end Ignores (Spring Boot / Maven) ---
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# NetBeans build outputs
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# STS / Eclipse project files
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# --- Common IDE / Editor Ignores ---
+.idea/
+.vscode/
+*.iws
+*.iml
+*.ipr
+.DS_Store
+Thumbs.db
+
+# --- Log Files ---
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# --- Environment Files ---
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+# Tránh commit các file config chứa mật khẩu/token nhạy cảm thực tế
+-HotelBookingWeb_FE1/.env
+HotelBookingWeb_BE/src/main/resources/application-local.properties

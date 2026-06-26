@@ -1,0 +1,17 @@
+package com.example.ttcs_be;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableAsync;
+import org.springframework.scheduling.annotation.EnableScheduling;
+
+@SpringBootApplication
+@EnableScheduling
+@EnableAsync
+public class TtcsBeApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(TtcsBeApplication.class, args);
+	}
+
+}
