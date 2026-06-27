@@ -101,6 +101,3 @@ HotelBookingWeb/ (Root Repository)
 6. Truy cập địa chỉ hiển thị trên terminal (thông thường là `http://localhost:5173`) để trải nghiệm ứng dụng.
 
 ---
-
-## 📝 Giấy phép (License)
-Dự án được xây dựng phục vụ mục đích học tập và làm danh mục sản phẩm (Portfolio) cá nhân.
